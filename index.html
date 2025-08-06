@@ -74,6 +74,7 @@
                 </p>
             </div>
             <div class="col-lg-6 text-center">
+                <div class="placeholder-image rounded"></div><br />
                 <div class="placeholder-image rounded"></div>
             </div>
         </div>
@@ -228,24 +229,31 @@
         </div>
     </section>
 
-    <!-- Kontakt -->
-    <section id="contact" class="py-7">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5">Skontaktuj się z nami</h2>
-            <form class="mt-4 mx-auto" style="max-width: 600px;" onsubmit="event.preventDefault(); alert('Dziękujemy! Skontaktujemy się wkrótce.');">
-                <div class="mb-3">
-                    <input type="text" class="form-control form-control-lg" placeholder="Twoje imię" required>
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control form-control-lg" placeholder="Adres e-mail" required>
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control form-control-lg" placeholder="Wiadomość" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-lg w-100">Wyślij</button>
-            </form>
-        </div>
-    </section>
+<!-- Kontakt -->
+<section id="contact" class="py-7 contact-section">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Skontaktuj się z nami</h2>
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <form class="mt-4" style="max-width: 100%;" onsubmit="event.preventDefault(); alert('Dziękujemy! Skontaktujemy się wkrótce.');">
+          <div class="mb-3">
+            <input type="text" class="form-control form-control-lg" placeholder="Twoje imię" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control form-control-lg" placeholder="Adres e-mail" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control form-control-lg" placeholder="Wiadomość" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg w-100">Wyślij</button>
+        </form>
+      </div>
+      <div class="col-lg-6 text-center">
+        <div class="placeholder-image rounded"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <footer class="bg-light py-4 text-center">
         <p class="mb-0">&copy; 2025 Outsourcing IT. Wszelkie prawa zastrzeżone.</p>
